@@ -7,4 +7,10 @@ class CommentsController < ApplicationController
       render template: "posts/index"
     end
   end
+
+  private
+
+  def comment_params
+    params.require(:comment).permit(:body, :post_id)
+  end
 end
