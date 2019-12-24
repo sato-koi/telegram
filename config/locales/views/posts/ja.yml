@@ -5,3 +5,5 @@ ja:
       post: 投稿する
     new:
       title: New Post
+    post:
+      submit: コメント
